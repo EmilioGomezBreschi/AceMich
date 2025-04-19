@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="src/output.css" rel="stylesheet" />
+  <link href="src/styles.css" rel="stylesheet" />
+  <title>Acemich - Accesorios</title>
+  <link rel="icon" href="src/Logos/logoacemichn.svg" />
+</head>
+
+<body class="text-white overflow-auto bg-[#CDCDCD]">
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center h-20">
+      <!-- Logo -->
+      <img src="src/Logos/logoacemich.svg" alt="Logo Acemich" class="h-72" />
+      <!-- Menú Desktop -->
+      <nav class="hidden lg:flex items-center space-x-6 text-lg text-gray-200">
+        <a href="index.html" class="hover:text-white  transition-all duration-200">Inicio</a>
+        <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200 ">Multypanel</a>
+        <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+        <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+        <a href="accesorios-inicio.html"
+          class="hover:text-white text-white transition-all duration-200 underline">Accesorios</a>
+        <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+        <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+      </nav>
+      <div class="hidden lg:flex items-center space-x-1 ml-4">
+        <a href="https://www.facebook.com/AcemichMx/" class="opacity-75 hover:opacity-100 transition-opacity -mr-[1px]"
+          target="_blank">
+          <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-5" />
+        </a>
+        <a href="https://www.instagram.com/acemichmx/" class="opacity-75 hover:opacity-100 transition-opacity"
+          target="_blank">
+          <img src="src/Logos/ig.svg" alt="Instagram" class="w-9" />
+        </a>
+        <a href="https://w.app/luuwob" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-5" />
+        </a>
+      </div>
+      <!-- Botón Menú Mobile -->
+      <button id="menu-toggle" class="lg:hidden p-2 hover:opacity-75">
+        <img src="src/Logos/menu.svg" alt="Menú móvil" class="w-7" />
+      </button>
+    </div>
+    <!-- Menú Mobile -->
+    <div id="mobile-menu" class="lg:hidden absolute top-full w-full bg-black/90 backdrop-blur-md hidden shadow-xl">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col items-center space-y-4 text-gray-300">
+          <a href="index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+          <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200">Multypanel</a>
+          <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+          <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+          <a href="accesorios-inicio.html"
+            class="hover:text-white transition-all duration-200 underline text-white">Accesorios</a>
+          <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+          <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+          <div class="flex space-x-2 mt-4">
+            <a href="https://www.facebook.com/AcemichMx/" class="hover:opacity-75">
+              <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-8 " />
+            </a>
+            <a href="https://www.instagram.com/acemichmx/" class="hover:opacity-75">
+              <img src="src/Logos/ig.svg" alt="Instagram" class="w-13 -mt-2" />
+            </a>
+            <a href="https://w.app/luuwob" class="hover:opacity-75">
+              <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-8" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección del inicio -->
+  <div class="h-screen relative overflow-hidden">
+    <div class="relative z-[1] h-screen flex items-center">
+      <img class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
+        src="src/ImagenesStock/IMG_7989.jpg.png" />
+      <main class="container mx-auto px-12 relative z-20 text-white lg:-mt-16 text-lg md:text-lg">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-5">Accesorios</h1>
+        <p class="font-light">En Acemich, <span class="font-bold">encontrarás todo lo necesario para complementar y
+            garantizar la calidad,</span></p>
+        <p class="font-bold">seguridad y durabilidad de tus proyectos de construcción<span class="font-light">
+            en metal. Ofrecemos una amplia</span>
+        </p>
+        <p class="font-light">variedad de componentes diseñados para brindar un ajuste perfecto, una fijación segura y u
+        </p>
+        <p class="font-light">sellado resistente en cualquier estructura metálica.</p>
+      </main>
+    </div>
+  </div>
+
+  <!-- Sección Principal -->
+  <section class="text-black md:px-16 px-4 py-16 flex flex-col z-[2]">
+    <div class="container mx-auto items-start">
+      <p class="text-5xl text-[#000000] font-extrabold">Accesorios</p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-evenly mb-16 items-start px-24">
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Accesorios/CABALLETE-Photoroom.png" alt="Caballete tipo glamet"
+          class="w-full transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Caballete tipo glamet
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Accesorios/Caballete LISO.png" alt="Caballete Liso"
+          class="w-full transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Caballete Liso
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Accesorios/Canal U.png" alt="Canal U"
+          class="w-full transform transition-transform duration-300 group-hover:scale-85 scale-75" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Canal U
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Accesorios/6.png" alt="Tapagotero"
+          class="w-full transform transition-transform duration-300 group-hover:scale-60 scale-50" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Tapagotero
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Accesorios/esquinero.png" alt="Esquinero"
+          class="w-full- transform transition-transform duration-300 group-hover:scale-85 scale-75" />
+        <div class="flex flex-col justify-center items-center -mt-8">
+          <h2 class=" font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+            Esquinero
+          </h2>
+          <p class="text-base font-light transform transition-transform duration-300 group-hover:scale-110">
+            Exterior
+            / Interior
+          </p>
+        </div>
+      </a>
+
+    </div>
+    <div class="container mx-auto items-start">
+      <p class="text-5xl font-extrabold text-[#000000]">Accesorios </p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-evenly items-end mb-16 px-24">
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/Clips.png" alt="Clips"
+          class="w-3/4 transform transition-transform duration-300 group-hover:scale-100 scale-90" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Clips
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/Pijas.png" alt="Pijas"
+          class="w-10/12 transform transition-transform duration-300 group-hover:scale-85 scale-75" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Pijas
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/Selladores.png" alt="Selladores"
+          class="w-3/4 transform transition-transform duration-300 group-hover:scale-75 scale-65" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Selladores
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/CauchoButilico.png" alt="Caucho Butílico"
+          class="w-3/4 transform transition-transform duration-300 group-hover:scale-100 scale-90" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Caucho Butílico
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/Closure.png" alt="Closure"
+          class="w-3/4 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Closure
+        </h2>
+      </a>
+    </div>
+    <div class="container mx-auto items-start">
+      <p class="text-5xl font-extrabold text-[#000000]">Accesorios </p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-evenly items-end mb-16 px-24">
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/Discos de corte.png" alt="Discos de corte"
+          class="w-2/3 transform transition-transform duration-300 group-hover:scale-80 scale-70" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Discos de corte
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/image-Photoroom (39).png" alt="Soldadura"
+          class="w-2/3 transform transition-transform duration-300 group-hover:scale-80 scale-70" />
+        <h2 class="-mt-8 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Soldadura
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/ColchonetatipoMBI.png" alt="Colchonetatipo MBI"
+          class="w-2/3 transform transition-transform duration-300 group-hover:scale-135 scale-125" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Colchoneta tipo MBI
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer space-y-7">
+        <img src="src/ImagenesPNG/Accesorios/products2.png" alt="Termofoam"
+          class="w-2/3 transform transition-transform duration-300 group-hover:scale-100 scale-90" />
+        <h2 class="-mt-12 font-extrabold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Termofoam
+        </h2>
+      </a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bottom-0 w-full bg-black z-50 backdrop-blur-sm py-7 px-4 lg:px-14">
+    <div class="container mx-auto flex flex-col items-start mb-12">
+      <h3 class="text-5xl">¿Por qué elegir <span class="text-5xl font-bold">nuestros</span>
+        <h3 />
+        <h3 class="font-bold text-5xl">accesorios?</h3>
+    </div>
+    <div class="flex lg:flex-row flex-col lg:items-end gap-8">
+      <div class="lg:w-3/4 flex flex-col items-start align-bottom space-y-6 mb-8 lg:mb-32">
+
+        <p class="text-xl font-extralight"><span class="font-bold">Materiales de Alta Calidad:</span>
+          Nuestros productos están fabricados con materiales resistentes a la corrosión, al desgaste y a
+          las
+          condiciones climáticas másexigentes.</p>
+
+        <p class="text-xl font-extralight"><span class="font-bold">Ajuste Perfecto y Compatibilidad:</span>
+          Contamos con una amplia variedad de molduras, fijaciones y selladores que se adaptan a
+          distintos tipos de estructurasmetálicas.</p>
+
+        <p class="text-xl font-extralight"><span class="font-bold">Máxima Protección y Sellado</span>
+          Evita filtraciones, refuerza uniones y prolonga la vida útil de tus instalaciones con nuestros
+          accesorios especializados.</p>
+
+        <p class="text-xl font-extralight"><span class="font-bold">Facilidad de Instalación</span>
+          Diseñados para optimizar tiempos de montaje y brindar soluciones prácticas y eficientes.</p>
+
+        <p class="text-xl font-extralight"><span class="font-bold">Garantía y Asesoría Personalizada</span>
+          Te acompañamos en la elección de los mejores accesorios para tu proyecto,
+          asegurando la mejor relación costo-beneficio.</p>
+      </div>
+      <div class="lg:w-1/4 flex flex-col items-center md:items-end align-bottom">
+        <p class="text-[#D25C0B] text-xl font-extrabold">(443) 316 9650</p>
+        <p class="text-[#D25C0B] text-xl font-extrabold">ventas2@acemich.com.mx</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Script para el menú móvil
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      document.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+  </script>
+</body>
+
+</html>
