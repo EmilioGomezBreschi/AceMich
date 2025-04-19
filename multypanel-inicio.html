@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+TODO: Poner el link de whatsapp
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="src/output.css" rel="stylesheet" />
+  <link href="src/styles.css" rel="stylesheet" />
+  <title>Acemich - Multypanel</title>
+  <link rel="icon" href="src/Logos/logoacemichn.svg" />
+</head>
+
+<body class="text-white overflow-auto bg-[#CDCDCD]">
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center h-20">
+      <!-- Logo -->
+      <img src="src/Logos/logoacemich.svg" alt="Logo Acemich" class="h-72" />
+      <!-- Menú Desktop -->
+      <nav class="hidden lg:flex items-center space-x-6 text-lg text-gray-200">
+        <a href="index.html" class="hover:text-white  transition-all duration-200">Inicio</a>
+        <a href="multypanel-inicio.html"
+          class="hover:text-white text-white transition-all duration-200 underline">Multypanel</a>
+        <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+        <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+        <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+        <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+        <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+      </nav>
+      <div class="hidden lg:flex items-center space-x-1 ml-4">
+        <a href="https://www.facebook.com/AcemichMx/" class="opacity-75 hover:opacity-100 transition-opacity -mr-[1px]"
+          target="_blank">
+          <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-5" />
+        </a>
+        <a href="https://www.instagram.com/acemichmx/" class="opacity-75 hover:opacity-100 transition-opacity"
+          target="_blank">
+          <img src="src/Logos/ig.svg" alt="Instagram" class="w-9" />
+        </a>
+        <a href="https://w.app/luuwob" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-5" />
+        </a>
+      </div>
+      <!-- Botón Menú Mobile -->
+      <button id="menu-toggle" class="lg:hidden p-2 hover:opacity-75">
+        <img src="src/Logos/menu.svg" alt="Menú móvil" class="w-7" />
+      </button>
+    </div>
+    <!-- Menú Mobile -->
+    <div id="mobile-menu" class="lg:hidden absolute top-full w-full bg-black/90 backdrop-blur-md hidden shadow-xl">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col items-center space-y-4">
+          <a href="index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+          <a href="multypanel-inicio.html"
+            class="hover:text-white text-white transition-all duration-200 underline">Multypanel</a>
+          <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+          <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+          <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+          <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+          <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+          <div class="flex space-x-2 mt-4">
+            <a href="https://www.facebook.com/share/161kVDoQge/?mibextid=wwXIfr" class="hover:opacity-75">
+              <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-8 " />
+            </a>
+            <a href="https://www.instagram.com/titangruas.mx?igsh=MTU2bmQybDNwdWw4Ng==" class="hover:opacity-75">
+              <img src="src/Logos/ig.svg" alt="Instagram" class="w-13 -mt-2" />
+            </a>
+            <a href="https://w.app/zz5jth" class="hover:opacity-75">
+              <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-8" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección del inicio -->
+  <div class="h-screen relative overflow-hidden">
+    <div class="relative z-[1] h-screen flex items-center">
+      <img class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
+        src="src/ImagenesStock/marcin-jozwiak-Ylnh_Zol4Zc-unsplash_dark.jpg" />
+      <main class="container mx-auto px-12 relative z-20 text-white pt-24">
+        <h1 class="text-3xl md:text-5xl font-bold mb-5">Multypanel</h1>
+        <p class="text-xl">En Acemich, te ofrecemos una amplia gama de paneles de la más alta calidad, <span
+            class="font-bold">diñados
+            para</span></p>
+        <p class="font-bold text-xl">cumplir con las exigencias de tus proyectos de construcción.</p>
+      </main>
+    </div>
+  </div>
+
+  <!-- Sección Principal -->
+  <section class="text-black md:px-16 px-4 py-16 flex flex-col z-[2]">
+    <div class="container mx-auto items-start">
+      <p class="text-5xl text-[#000000]">Multypanel <span class="text-5xl font-bold text-[#000000]">para techo</span>
+      </p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-between mt-16 lg:mt-0 mb-16">
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/Galvatecho-Ternium-Arena.jpg-Photoroom (1).png" alt="Galvatecho"
+          class="w-5/6 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Galvatecho
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/MONOROOF.png" alt="Monoroof"
+          class="w-5/6 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">Monoroof
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/Multytecho-26-26-Ternium-Arena.jpg-Photoroom (1).png" alt="Multytecho"
+          class="w-5/6 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Multytecho
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/Econotecho-26-Vinil-Ternium-Arena.jpg-Photoroom (1).png" alt="Econotecho"
+          class="w-5/6 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Econotecho
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/metcoppo.png" alt="Metcoppo"
+          class="w-5/6 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">Metcoppo
+        </h2>
+      </a>
+    </div>
+    <div class="container mx-auto items-start">
+      <p class="text-5xl text-[#000000]">Multypanel <span class="text-5xl font-bold text-[#000000]">para muro</span>
+      </p>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-center mb-0 mt-16 lg:mt-0 lg:mb-16">
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/SUPERWALL-Photoroom (1).png" alt="Superwall"
+          class="w-5/6 lg:w-1/2 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Superwall
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/SUPERWALLFRIGO-Photoroom (1).png" alt="Superwall Frigo"
+          class="w-5/6 lg:w-1/2 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Superwall Frigo
+        </h2>
+      </a>
+
+      <a
+        class="group flex flex-col items-center w-full transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+        <img src="src/ImagenesPNG/Paneles/multymuro-Photoroom (1).png" alt="Multymuro"
+          class="w-5/6 lg:w-1/2 transform transition-transform duration-300 group-hover:scale-110" />
+        <h2 class="-mt-12 font-bold text-2xl transform transition-transform duration-300 group-hover:scale-110">
+          Multymuro
+        </h2>
+      </a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bottom-0 w-full bg-black z-50 backdrop-blur-sm py-7 px-4 lg:px-14">
+    <div class="container mx-auto flex flex-col items-start mb-12">
+      <h3 class="text-5xl">¿Por qué elegir <span class="text-5xl font-bold">nuestros</span>
+        <h3 />
+        <h3 class="font-bold text-5xl">paneles?</h3>
+    </div>
+    <div class="flex lg:flex-row flex-col lg:items-end gap-8">
+      <div class="lg:w-3/4 flex flex-col items-start align-bottom space-y-6 mb-8 lg:mb-32">
+        <p class="text-xl font-extralight"><span class="font-bold">Máxima Durabilidad:</span>
+          Fabricados con materiales resistentes a la corrosión y a las condiciones climáticas extremas, nuestros
+          paneles garantizan una larga vida útil para tu construcción.</p>
+        <p class="text-xl font-extralight"><span class="font-bold">Aislamiento Superior:</span>
+          Nuestros paneles ofrecen un excelente aislamiento térmico y acústico, lo que se traduce en ahorro de
+          energía y confort para tus espacios.</p>
+        <p class="text-xl font-extralight"><span class="font-bold">Fácil Instalación: </span>
+          Diseñados para una instalación rápida y sencilla, nuestros paneles reducen los tiempos de construcción y los
+          costos de mano de obra.</p>
+        <p class="text-xl font-extralight"><span class="font-bold">Versatilidad:</span>
+          Adaptables a una gran variedad de proyectos, desde naves industriales hasta viviendas residenciales, nuestros
+          paneles cumplen con los más altos estándares de calidad.</p>
+      </div>
+      <div class="lg:w-1/4 flex flex-col items-center md:items-end align-bottom">
+        <p class="text-[#D25C0B] text-xl font-extrabold">(443) 316 9650</p>
+        <p class="text-[#D25C0B] text-xl font-extrabold">ventas2@acemich.com.mx</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Script para el menú móvil
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle('hidden');
+      });
+
+      document.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+  </script>
+</body>
+
+</html>

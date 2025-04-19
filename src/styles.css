@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "Helvetica Now Display";
+	src: url("/src/fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"),
+		url("/src/fonts/HelveticaNowDisplay-Regular.woff") format("woff"),
+		url("/src/fonts/HelveticaNowDisplay-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica Now Display";
+	src: url("/src/fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
+		url("/src/fonts/HelveticaNowDisplay-Bold.woff") format("woff"),
+		url("/src/fonts/HelveticaNowDisplay-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica Now Display";
+	src: url("/src/fonts/HelveticaNowDisplay-ExtraBold.woff2") format("woff2"),
+		url("/src/fonts/HelveticaNowDisplay-ExtraBold.woff") format("woff"),
+		url("/src/fonts/HelveticaNowDisplay-ExtraBold.ttf") format("truetype");
+	font-weight: 800; /* Peso extra negrita */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica Now Display";
+	src: url("/src/fonts/HelveticaNowDisplay-Light.woff2") format("woff2"),
+		url("/src/fonts/HelveticaNowDisplay-Light.woff") format("woff"),
+		url("/src/fonts/HelveticaNowDisplay-Light.ttf") format("truetype");
+	font-weight: 300; /* Peso ligero */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica Now Display";
+	src: url("/src/fonts/HelveticaNowDisplay-ExtLt.woff2") format("woff2"),
+		url("/src/fonts/HelveticaNowDisplay-ExtLt.woff") format("woff"),
+		url("/src/fonts/HelveticaNowDisplay-ExtLt.ttf") format("truetype");
+	font-weight: 200; /* Peso extra ligero */
+	font-style: normal;
+}
+
+/* Aplica la fuente al cuerpo o a cualquier otro selector */
+body {
+	font-family: "Helvetica Now Display", sans-serif;
+}

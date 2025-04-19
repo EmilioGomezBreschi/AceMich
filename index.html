@@ -1,159 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
-<!-- 
-TODO: Poner el link de whatsapp
--->
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link href="src/output.css" rel="stylesheet" />
   <link href="src/styles.css" rel="stylesheet" />
-  <title>TitanGruas - Inicio</title>
-  <link rel="icon" href="src/Newtitansvg.ico" />
+  <title>Acemich</title>
+  <link rel="icon" href="src/Logos/logoacemichn.svg" />
 </head>
 
-<body class="text-white overflow-auto">
+<body class="text-white overflow-auto bg-[#CDCDCD]">
   <!-- Header -->
   <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
-    <div class="container mx-auto px-4 flex justify-between items-center yh-20">
+    <div class="container mx-auto px-4 flex justify-between items-center h-20">
       <!-- Logo -->
-      <div class="w-10 md:w-48">
-        <img src="src/Newtitansvg.svg" alt="Logo TitanGrúas" class="w-56 h-56 absolute top-0 left-0 mt-[-65px]" />
-      </div>
+      <img src="src/Logos/logoacemich.svg" alt="Logo Acemich" class="h-72" />
       <!-- Menú Desktop -->
-      <nav class="hidden lg:flex items-center space-x-6 text-lg">
-        <a href="index.html"
-          class="hover:text-[#00f900] text-[#00f900] transition-all duration-200 underline">Inicio</a>
-        <a href="gruas.html" class="hover:text-[#00f900] transition-all duration-200">Multypanel</a>
-        <a href="portafolio.html" class="hover:text-[#00f900] transition-all duration-200"></a>
-        <div class="flex items-center space-x-4 ml-4">
-          <a href="https://www.facebook.com/share/161kVDoQge/?mibextid=wwXIfr"
-            class="hover:opacity-75 transition-opacity" target="_blank">
-            <img src="src/facebook-social-logo.svg" alt="Facebook" class="w-6" />
-          </a>
-          <a href="https://www.instagram.com/titangruas.mx?igsh=MTU2bmQybDNwdWw4Ng=="
-            class="hover:opacity-75 transition-opacity" target="_blank">
-            <img src="src/ig.svg" alt="Instagram" class="w-9" />
-          </a>
-          <a href="https://w.app/zz5jth" class="hover:opacity-75 transition-opacity" target="_blank">
-            <img src="src/whatsapp.svg" alt="WhatsApp" class="w-6" />
-          </a>
-          <div class="flex space-x-2">
-            <div class="border border-white rounded-full text-xs px-3 py-1">443 107 4582</div>
-            <div class="border border-white rounded-full text-xs px-3 py-1">443 169 3581</div>
-          </div>
-        </div>
+      <nav class="hidden lg:flex items-center space-x-6 text-lg text-gray-200">
+        <a href="index.html" class="hover:text-white text-white transition-all duration-200 underline">Inicio</a>
+        <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200">Multypanel</a>
+        <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+        <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+        <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+        <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+        <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
       </nav>
+      <div class="hidden lg:flex items-center space-x-1 ml-4">
+        <a href="https://www.facebook.com/AcemichMx/" class="opacity-75 hover:opacity-100 transition-opacity -mr-[1px]"
+          target="_blank">
+          <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-5" />
+        </a>
+        <a href="https://www.instagram.com/acemichmx/" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="src/Logos/ig.svg" alt="Instagram" class="w-9" />
+        </a>
+        <a href="https://w.app/luuwob" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-5" />
+        </a>
+      </div>
       <!-- Botón Menú Mobile -->
       <button id="menu-toggle" class="lg:hidden p-2 hover:opacity-75">
-        <img src="src/menu.svg" alt="Menú móvil" class="w-7" />
+        <img src="src/Logos/menu.svg" alt="Menú móvil" class="w-7" />
       </button>
     </div>
     <!-- Menú Mobile -->
     <div id="mobile-menu" class="lg:hidden absolute top-full w-full bg-black/90 backdrop-blur-md hidden shadow-xl">
       <div class="container mx-auto px-4 py-4">
         <div class="flex flex-col items-center space-y-4">
-          <a href="index.html" class="w-full text-center py-2 hover:text-[#00f900] text-[#00f900]">Inicio</a>
-          <a href="gruas.html" class="w-full text-center py-2 hover:text-[#00f900]">Grúas</a>
-          <a href="portafolio.html" class="w-full text-center py-2 hover:text-[#00f900]">Portafolio</a>
-          <div class="flex space-x-4 mt-4">
+          <a href="index.html" class="hover:text-white text-white transition-all duration-200 underline">Inicio</a>
+          <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200">Multypanel</a>
+          <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+          <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+          <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+          <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+          <a href="proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+          <div class="flex space-x-2 mt-4">
             <a href="https://www.facebook.com/share/161kVDoQge/?mibextid=wwXIfr" class="hover:opacity-75">
-              <img src="src/facebook-social-logo.svg" alt="Facebook" class="w-8" />
+              <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-8" />
             </a>
             <a href="https://www.instagram.com/titangruas.mx?igsh=MTU2bmQybDNwdWw4Ng==" class="hover:opacity-75">
-              <img src="src/ig.svg" alt="Instagram" class="w-10" />
+              <img src="src/Logos/ig.svg" alt="Instagram" class="w-13 -mt-2" />
             </a>
             <a href="https://w.app/zz5jth" class="hover:opacity-75">
-              <img src="src/whatsapp.svg" alt="WhatsApp" class="w-8" />
+              <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-8" />
             </a>
-          </div>
-          <div class="flex flex-col space-y-2 w-full items-center mt-4">
-            <div class="border border-white rounded-full text-xs px-4 py-1">443 107 4582</div>
-            <div class="border border-white rounded-full text-xs px-4 py-1">443 169 3581</div>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Sección del Video -->
-  <div class="h-screen relative overflow-hidden md:mb-11">
+  <!-- Sección del inicio -->
+  <div class="h-screen relative overflow-hidden">
     <div class="relative z-[1] h-screen flex items-center">
-      <video class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
-        autoplay loop muted playsinline>
-        <source src="src/optimized-InnovaLandingIntro.webm" type="video/webm" />
-      </video>
-      <main class="container mx-auto px-4 relative z-20 text-white pt-24">
-        <h1 class="text-3xl md:text-5xl font-bold mb-4">
-          <span class="block">EL PODER DE LOS TITANES</span>
-          <span class="block">EN CADA MANIOBRA</span>
+      <img class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
+        src="src/ImagenesStock/PORTADALANDING.png" />
+      <main class="container mx-auto px-12 relative z-20 text-white pt-24">
+        <h1 class="text-3xl md:text-5xl font-bold mb-5">
+          <span class="block mb-3 font-bold">Dando forma a la construcción</span>
+          <span class="block font-bold">con acero en México</span>
         </h1>
-        <p class="text-lg md:text-xl">Servicio de grúas industriales</p>
+        <p class="text-lg md:text-xl font-bold mb-4">
+          Más de 12 años satisfaciendo las necesidades de la construcción con
+          acero.
+        </p>
+        <p class="text-lg md:text-xl">
+          Brindando asesoría técnica al consumidor, ayudándole a elegir los
+          materiales adecuados para su
+        </p>
+        <p class="text-lg md:text-xl">proyecto</p>
       </main>
     </div>
   </div>
 
-  <!-- Sección Nosotros -->
-  <section class="bg-white text-black px-4 py-16 relative z-[2]">
-    <div class="container mx-auto">
-      <div class="lg:text-center mb-12">
-        <h1 class="text-[#00f900] text-4xl md:text-6xl font-bold mb-2">Nosotros</h1>
-        <p class="text-lg md:text-xl">EL PODER DE LOS TITANES EN CADA MANIOBRA</p>
+  <!-- Sección Principal -->
+  <section class="text-black md:px-16 px-4 py-16 flex z-[2]">
+    <div class="container mx-auto items-start">
+      <div class="align-start mb-12">
+        <p class="text-5xl text-[#000000]">
+          Nuestros
+          <span class="text-5xl font-bold text-[#000000]">Servicios</span>
+        </p>
       </div>
 
-      <div class="flex lg:flex-row flex-col items-center gap-8">
-        <div class="lg:w-1/2">
-          <p class="text-xl md:text-2xl leading-relaxed">
-            En TITAN, <span class="font-bold">somos líderes en la renta de maquinaria
-              industrial para la construcción</span>, ofreciendo equipos de
-            alta calidad y rendimiento para impulsar tus proyectos.
-            Con años de experiencia en el sector, <span class="font-bold">brindamos
-              soluciones eficientes y confiables</span> para empresas
-            constructoras, ingenieros y contratistas que buscan
-            optimizar sus operaciones.
+      <div class="flex lg:flex-row flex-col items-center gap-8 mb-16 md:mb-48">
+        <div class="lg:w-7/12"></div>
+        <div class="lg:w-5/12 flex flex-col items-start">
+          <h2 class="md:text-5xl text-3xl font-bold">Asesoría Técnica</h2>
+          <h2 class="md:text-5xl text-3xl font-bold mb-6">especializada</h2>
+          <p class="text-[19px] mb-4">
+            En Acemich, no solo comercializamos acero, sino que también
+            brindamos un servicio integral de asesoría técnica especializada
+            para
+            <span class="font-bold">
+              garantizar que cada proyecto de construcción cuente con los
+              materiales adecuados y el respaldo de expertos.</span>
+          </p>
+          <p class="text-[19px] text-2xl">
+            Nuestro equipo de ingenieros y especialistas te ayudará a
+            seleccionar el tipo de acero ideal según las normativas vigentes,
+            condiciones estructurales y necesidades específicas de tu obra.
           </p>
         </div>
-        <div class="lg:w-1/2">
-          <img src="src/JARDIN.png" alt="maquinaria" class="rounded-xl shadow-xl w-full" />
+      </div>
+      <div class="flex lg:flex-row flex-col items-start gap-8 mb-16 md:mb-36">
+        <div class="lg:w-7/12">
+          <img src="src/ImagenesStock/Materialess.png" alt="" class="w-full md:h-auto h-96 shadow-lg rounded-4xl" />
+        </div>
+        <div class="lg:w-5/12 flex flex-col items-start align-bottom">
+          <h2 class="md:text-5xl text-3xl font-bold">
+            Existencia continua en
+          </h2>
+          <h2 class="md:text-5xl text-3xl font-bold mb-6">
+            nuestros materiales
+          </h2>
+          <p class="lg:text-[19px] text-2xl mb-4">
+            En Acemich, entendemos la importancia de la disponibilidad
+            inmediata de material para el éxito de tu proyecto. Por eso,<span class="font-bold">
+              contamos con un sólido stock de materiales de la más alta
+              calidad,
+            </span>
+            listos para entrega cuando los necesites.
+          </p>
+        </div>
+      </div>
+      <div class="flex lg:flex-row flex-col items-start gap-8 mb-16 md:mb-36">
+        <div class="lg:w-7/12">
+          <img src="src/ImagenesStock/IMG_6823.jpg" alt="" class="w-full md:h-auto h-96 shadow-lg rounded-4xl" />
+        </div>
+        <div class="lg:w-5/12 flex flex-col items-start align-bottom">
+          <h2 class="md:text-5xl text-3xl font-bold">
+            Servicio de entregas a
+          </h2>
+          <h2 class="md:text-5xl text-3xl font-bold mb-6">nivel nacional</h2>
+          <p class="text-[19px] text-2xl mb-4">
+            En Acemich, llevamos el material que necesitas hasta donde lo
+            requieras, de manera rápida y segura.
+            <span class="font-bold">Gracias a nuestra eficiente red logística, garantizamos
+              entregas puntuales y confiables en todo el país,</span>
+            asegurando que tu proyecto nunca se detenga por falta de material.
+          </p>
+        </div>
+      </div>
+      <div class="flex lg:flex-row flex-col items-start gap-8">
+        <div class="lg:w-7/12">
+          <img src="src/ImagenesStock/IMG_8345.jpg" alt="" class="w-full md:h-auto h-96 shadow-lg rounded-4xl" />
+        </div>
+        <div class="lg:w-5/12 flex flex-col items-start align-bottom">
+          <h2 class="md:text-5xl text-3xl font-bold">
+            Fabricación de molduras
+          </h2>
+          <h2 class="md:text-5xl text-3xl font-bold mb-6">
+            y accesorios a la medida
+          </h2>
+          <p class="text-[19px] text-2xl mb-4">
+            En Acemich, nos adaptamos a las necesidades específicas de tu
+            proyecto con nuestro servicio de fabricación de molduras y
+            accesorios a la medida.<span class="font-bold">
+              Contamos con tecnología de punta y un equipo de expertos para
+              desarrollar piezas personalizadas con la más alta precisión y
+              calidad.
+            </span>
+          </p>
         </div>
       </div>
     </div>
   </section>
-
   <!-- Footer -->
-  <footer class="fixed bottom-0 w-full bg-black z-50 backdrop-blur-sm">
-    <div class="container mx-auto px-4 flex justify-end items-end">
-      <img src="src/Newtitansvg.svg" alt="Logo pequeño" class="w-12 absolute bottom-0 left-0 mb-[-6px]" />
-      <div class="flex items-center space-x-4">
-        <a href="https://www.facebook.com/share/161kVDoQge/?mibextid=wwXIfr" target="_blank"
-          class="hover:opacity-75 transition-opacity">
-          <img src="src/facebook-social-logo.svg" alt="Facebook" class="w-6" />
-        </a>
-        <a href="https://www.instagram.com/titangruas.mx?igsh=MTU2bmQybDNwdWw4Ng==" target="_blank"
-          class="hover:opacity-75 transition-opacity">
-          <img src="src/ig.svg" alt="Instagram" class="w-9" />
-        </a>
-        <a href="https://w.app/zz5jth" class="hover:opacity-75 transition-opacity" target="_blank">
-          <img src="src/whatsapp.svg" alt="WhatsApp" class="w-6" />
-        </a>
-      </div>
+  <footer class="bottom-0 w-full bg-black z-50 backdrop-blur-sm py-7 lg:px-14">
+    <h2 class="text-5xl px-14">
+      Socios <span class="text-5xl font-bold">Comerciales</span>
+    </h2>
+    <div class="grid grid-cols-2 gap-8 px-16 py-12 xl:flex xl:flex-row xl:justify-between xl:gap-0">
+      <img src="src/Logos/Logos colaboradores/METECNO.png" alt="Logo Metecno" class="md:h-6 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/isocindu.png" alt="Logo isocindu" class="md:h-8 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/kingspan.png" alt="Logo kingspan" class="md:h-14 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/TERNIUM.png" alt="Logo Ternium" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/CERCASEL.png" alt="Logo Cercasel" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/STABILIT.png" alt="Logo Stablit" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/PROLAMSA.png" alt="Logo Prolamsa" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/infra.png" alt="Logo Infra" class="md:h-12 justify-self-center" />
     </div>
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Script para el menú móvil
-      const menuToggle = document.getElementById('menu-toggle');
-      const mobileMenu = document.getElementById('mobile-menu');
+                                    document.addEventListener("DOMContentLoaded", () => {
+                                    // Script para el menú móvil
+                                    const menuToggle = document.getElementById("menu-toggle");
+                                    const mobileMenu = document.getElementById("mobile-menu");
 
-      menuToggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        mobileMenu.classList.toggle('hidden');
-      });
+                                    menuToggle.addEventListener("click", (e) => {
+                                      e.stopPropagation();
+                                    mobileMenu.classList.toggle("hidden");
+                                  });
 
-      document.addEventListener('click', () => mobileMenu.classList.add('hidden'));
-    });
+                                    document.addEventListener("click", () =>
+                                      mobileMenu.classList.add("hidden")
+                                    );
+                                  });
   </script>
 </body>
 
