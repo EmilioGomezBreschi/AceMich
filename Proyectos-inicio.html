@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="src/output.css" rel="stylesheet" />
+  <link href="src/styles.css" rel="stylesheet" />
+  <title>Acemich - Proyectos</title>
+  <link rel="icon" href="src/Logos/logoacemichn.svg" />
+</head>
+
+<body class="text-white overflow-auto bg-[#CDCDCD]">
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center h-20">
+      <!-- Logo -->
+      <img src="src/Logos/logoacemich.svg" alt="Logo Acemich" class="h-72" />
+      <!-- Menú Desktop -->
+      <nav class="hidden lg:flex items-center space-x-6 text-lg text-gray-200">
+        <a href="index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+        <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200">Multypanel</a>
+        <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+        <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+        <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+        <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+        <a href="proyectos-inicio.html"
+          class="hover:text-white text-white transition-all duration-200 underline">Proyectos</a>
+      </nav>
+      <div class="hidden lg:flex items-center space-x-1 ml-4">
+        <a href="https://www.facebook.com/AcemichMx/" class="opacity-75 hover:opacity-100 transition-opacity -mr-[1px]"
+          target="_blank">
+          <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-5" />
+        </a>
+        <a href="https://www.instagram.com/acemichmx/" class="opacity-75 hover:opacity-100 transition-opacity"
+          target="_blank">
+          <img src="src/Logos/ig.svg" alt="Instagram" class="w-9" />
+        </a>
+        <a href="https://w.app/luuwob" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-5" />
+        </a>
+      </div>
+      <!-- Botón Menú Mobile -->
+      <button id="menu-toggle" class="lg:hidden p-2 hover:opacity-75">
+        <img src="src/Logos/menu.svg" alt="Menú móvil" class="w-7" />
+      </button>
+    </div>
+    <!-- Menú Mobile -->
+    <div id="mobile-menu" class="lg:hidden absolute top-full w-full bg-black/90 backdrop-blur-md hidden shadow-xl">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col items-center space-y-4 text-gray-300">
+          <a href="index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+          <a href="multypanel-inicio.html" class="hover:text-white transition-all duration-200">Multypanel</a>
+          <a href="Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+          <a href="rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+          <a href="accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+          <a href="estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+          <a href="proyectos-inicio.html"
+            class="hover:text-white text-white transition-all duration-200 underline">Proyectos</a>
+          <div class="flex space-x-2 mt-4">
+            <a href="https://www.facebook.com/AcemichMx/" class="hover:opacity-75">
+              <img src="src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-8" />
+            </a>
+            <a href="https://www.instagram.com/acemichmx/" class="hover:opacity-75">
+              <img src="src/Logos/ig.svg" alt="Instagram" class="w-13 -mt-2" />
+            </a>
+            <a href="https://w.app/luuwob" class="hover:opacity-75">
+              <img src="src/Logos/whatsapp.svg" alt="WhatsApp" class="w-8" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección del inicio -->
+  <div class="h-screen relative overflow-hidden">
+    <div class="relative z-[1] h-screen flex items-center">
+      <img class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
+        src="src/ImagenesStock/proyectos.png" />
+      <main class="container mx-auto px-12 relative z-20 text-white">
+        <h1 class="text-3xl md:text-6xl font-bold mb-5">
+          <span class="block md:mb-3 font-extrabold">Dando forma a la construcción</span>
+          <span class="block font-extrabold">con acero en México</span>
+        </h1>
+      </main>
+    </div>
+  </div>
+
+  <!-- Sección Principal -->
+  <section class="text-black px-10 py-16 flex z-[2]">
+    <div class="container mx-auto items-center w-full">
+      <div class="align-middle mb-12 w-full flex justify-center">
+        <p class="text-5xl text-[#000000] font-light">
+          Nuestros
+          <span class="text-5xl font-extrabold text-[#000000]">Proyectos</span>
+        </p>
+      </div>
+
+      <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+        <div class="lg:w-2/3 flex flex-col items-start align-top h-full">
+          <img src="src/ImagenesStock/proyectos.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+          <div class="flex flex-col items-start align-top mt-1 mx-9">
+            <p class="text-xl">Pénjamo, Gto.</p>
+            <h2 class="md:text-5xl text-3xl font-extrabold">
+              Albapesa
+            </h2>
+          </div>
+        </div>
+        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
+          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
+            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
+          <div class="flex flex-col items-end w-full align-top mt-1 ">
+            <p class="text-xl">Morelia, Mich.</p>
+            <h2 class="md:text-5xl text-3xl font-extrabold">
+              Acemich
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+        <div class="lg:w-1/3 flex flex-col items-start align-top h-full">
+          <img src="src/ImagenesStock/proyectos.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+          <div class="flex flex-col items-start align-top mt-1 mx-9">
+            <p class="text-xl">Opopeo, Mich.</p>
+            <h2 class="md:text-5xl text-3xl font-extrabold">
+              Iglesia
+            </h2>
+          </div>
+        </div>
+        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
+          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
+            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
+          <div class="flex flex-col items-center w-full align-top mt-1">
+            <p class="text-xl">Zamora, Mich.</p>
+            <h2 class="md:text-5xl text-3xl font-extrabold text-center">
+              Hotel Meson del Valle
+            </h2>
+          </div>
+        </div>
+        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
+          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
+            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
+          <div class="flex flex-col items-end w-full align-top mt-1 ">
+            <p class="text-xl">Morelia, Mich.</p>
+            <h2 class="md:text-5xl text-3xl font-extrabold">
+              Cedi Merza
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bottom-0 w-full bg-black z-50 backdrop-blur-sm py-7 lg:px-14">
+    <h2 class="text-5xl px-14">
+      Socios <span class="text-5xl font-bold">Comerciales</span>
+    </h2>
+    <div class="grid grid-cols-2 gap-8 px-16 py-12 xl:flex xl:flex-row xl:justify-between xl:gap-0">
+      <img src="src/Logos/Logos colaboradores/METECNO.png" alt="Logo Metecno" class="md:h-6 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/isocindu.png" alt="Logo isocindu" class="md:h-8 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/kingspan.png" alt="Logo kingspan" class="md:h-14 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/TERNIUM.png" alt="Logo Ternium" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/CERCASEL.png" alt="Logo Cercasel" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/STABILIT.png" alt="Logo Stablit" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/PROLAMSA.png" alt="Logo Prolamsa" class="md:h-12 justify-self-center" />
+      <img src="src/Logos/Logos colaboradores/infra.png" alt="Logo Infra" class="md:h-12 justify-self-center" />
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Script para el menú móvil
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      document.addEventListener("click", () =>
+        mobileMenu.classList.add("hidden")
+      );
+    });
+  </script>
+</body>
+
+</html>
