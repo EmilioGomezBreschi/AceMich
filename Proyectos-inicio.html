@@ -10,7 +10,7 @@
   <link rel="icon" href="src/Logos/logoacemichn.svg" />
 </head>
 
-<body class="text-white overflow-auto bg-[#CDCDCD]">
+<body class="text-white overflow-auto bg-[#CDCDCD] scroll-smooth">
   <!-- Header -->
   <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
     <div class="container mx-auto px-4 flex justify-between items-center h-20">
@@ -97,77 +97,145 @@
         </p>
       </div>
 
-      <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
-        <div class="lg:w-2/3 flex flex-col items-start align-top h-full">
-          <img src="src/ImagenesStock/proyectos.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
-          <div class="flex flex-col items-start align-top mt-1 mx-9">
-            <p class="text-xl">Pénjamo, Gto.</p>
-            <h2 class="md:text-5xl text-3xl font-extrabold">
-              Albapesa
-            </h2>
-          </div>
-        </div>
-        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
-          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
-            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
-          <div class="flex flex-col items-end w-full align-top mt-1 ">
-            <p class="text-xl">Morelia, Mich.</p>
-            <h2 class="md:text-5xl text-3xl font-extrabold">
-              Acemich
-            </h2>
-          </div>
-        </div>
-      </div>
+      <section class="relative h-[300vh]">
+        <div
+          class="sticky top-0 h-screen slider-container flex items-start justify-start overflow-hidden py-8 lg:py-32">
+          <div class="w-full flex items-start justify-between transition-all duration-500 flex-row">
+            <!-- Contenido izquierdo -->
+            <div class="w-1/3 mt-12  hidden lg:block">
+              <p class="text-xl mb-2">Algunos de <span class="font-bold">nuestros proyectos</span></p>
+              <h2 class="lg:text-5xl text-3xl font-bold leading-tight lg:mb-6">Brindando soluciones resistentes y
+                duraderas</h2>
+            </div>
 
-      <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
-        <div class="lg:w-1/3 flex flex-col items-start align-top h-full">
-          <img src="src/ImagenesStock/proyectos.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
-          <div class="flex flex-col items-start align-top mt-1 mx-9">
-            <p class="text-xl">Opopeo, Mich.</p>
-            <h2 class="md:text-5xl text-3xl font-extrabold">
-              Iglesia
-            </h2>
+            <!-- Contenido derecho -->
+            <div class="lg:w-2/3 w-full flex flex-col mt-12 lg:mt-0">
+              <img id="slider-img" src="src/ImagenesStock/ABATIBLE.png"
+                class="w-full lg:h-96 h-36 object-cover mb-6 rounded-4xl shadow-xl">
+              <div class="flex flex-row items-start w-full gap-10 lg:gap-0">
+                <div class="w-2/3 pr-4">
+                  <h3 id="slider-subtitle" class="lg:text-2xl text-lg font-extrabold mb-2"></h3>
+                  <p id="slider-description" class="text-sm"></p>
+                </div>
+                <div class="w-1/3 text-right pr-4">
+                  <h3 class="lg:text-2xl text-lg font-extrabold mb-2">Materiales</h3>
+                  <div id="slider-materials" class="text-sm"></div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
-          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
-            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
-          <div class="flex flex-col items-center w-full align-top mt-1">
-            <p class="text-xl">Zamora, Mich.</p>
-            <h2 class="md:text-5xl text-3xl font-extrabold text-center">
-              Hotel Meson del Valle
-            </h2>
+      </section>
+
+
+      <div class="container mx-auto items-center w-full">
+        <div class="align-middle mb-12 w-full flex justify-center">
+          <p class="text-5xl text-[#000000] font-light">
+            Otros
+            <span class="text-5xl font-extrabold text-[#000000]">Proyectos</span>
+          </p>
+        </div>
+
+        <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+          <div class="lg:w-2/3 w-full flex flex-col items-start align-top h-full">
+            <img src="src/ImagenesStock/albapesa.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+            <div class="flex flex-col lg:items-start items-center align-top mt-1 mx-9">
+              <p class="text-xl">Pénjamo, Gto.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Albapesa
+              </h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/acemich.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover " />
+            <div class="flex flex-col lg:items-end items-center w-full align-top mt-1 ">
+              <p class="text-xl">Morelia, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Acemich
+              </h2>
+            </div>
           </div>
         </div>
-        <div class="lg:w-1/3 h-full flex flex-col items-start align-top">
-          <img src="src/ImagenesStock/CABALLETELISO.png" alt=""
-            class="w-full h-96 shadow-lg rounded-4xl object-fill " />
-          <div class="flex flex-col items-end w-full align-top mt-1 ">
-            <p class="text-xl">Morelia, Mich.</p>
-            <h2 class="md:text-5xl text-3xl font-extrabold">
-              Cedi Merza
-            </h2>
+
+        <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+          <div class="lg:w-1/3 w-full flex flex-col items-start align-top h-full">
+            <img src="src/ImagenesStock/Iglesia.jpeg" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+            <div class="flex flex-col lg:items-start items-center w-full align-top mt-1">
+              <p class="text-xl">Opopeo, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Iglesia
+              </h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full  flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/HOTEL.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover " />
+            <div class="flex flex-col items-center w-full align-top mt-1">
+              <p class="text-xl">Zamora, Mich.</p>
+              <h2 class="md:text-[2.75rem] text-3xl font-extrabold text-center">
+                Hotel Meson del Valle
+              </h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/MERZA.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-fill " />
+            <div class="flex flex-col lg:items-end items-center w-full align-top mt-1 ">
+              <p class="text-xl">Morelia, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Cedi Merza
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+          <div class="lg:w-1/3 w-full flex flex-col items-start align-top h-full">
+            <img src="src/ImagenesStock/CEDI.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+            <div class="flex flex-col lg:items-start items-center w-full align-top mt-1">
+              <p class="text-xl">Morelia, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Cedi Merza
+              </h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full  flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/Escuela.jpeg" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover " />
+            <div class="flex flex-col items-center w-full align-top mt-1">
+              <p class="text-xl">La Piedad, Mich</p>
+              <h2 class="md:text-[2.75rem] text-3xl font-extrabold text-center">
+                Escuela
+              </h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/Polipasticos.png" alt=""
+              class="w-full h-96 shadow-lg rounded-4xl object-fill " />
+            <div class="flex flex-col lg:items-end items-center w-full align-top mt-1 ">
+              <p class="text-xl">Morelia, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">
+                Poliplásticos
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex lg:flex-row flex-col items-start gap-16 mb-16 md:mb-24">
+          <div class="lg:w-3/4 w-full flex flex-col items-start align-top h-full">
+            <img src="src/ImagenesStock/Ford.jpg" alt="" class="w-full h-96 shadow-lg rounded-4xl object-cover" />
+            <div class="flex flex-col lg:items-start items-center align-top mt-1 mx-9">
+              <p class="text-xl">La Piedad, Mich.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">Ford</h2>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full h-full flex flex-col items-start align-top">
+            <img src="src/ImagenesStock/CASETA.png" alt="" class="w-full h-96 shadow-lg rounded-4xl object-fill" />
+            <div class="flex flex-col lg:items-end items-center w-full align-top mt-1">
+              <p class="text-xl">Silao, Gto.</p>
+              <h2 class="md:text-5xl text-3xl font-extrabold">Planta Automortriz</h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
-  <!-- Footer -->
-  <footer class="bottom-0 w-full bg-black z-50 backdrop-blur-sm py-7 lg:px-14">
-    <h2 class="text-5xl px-14">
-      Socios <span class="text-5xl font-bold">Comerciales</span>
-    </h2>
-    <div class="grid grid-cols-2 gap-8 px-16 py-12 xl:flex xl:flex-row xl:justify-between xl:gap-0">
-      <img src="src/Logos/Logos colaboradores/METECNO.png" alt="Logo Metecno" class="md:h-6 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/isocindu.png" alt="Logo isocindu" class="md:h-8 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/kingspan.png" alt="Logo kingspan" class="md:h-14 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/TERNIUM.png" alt="Logo Ternium" class="md:h-12 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/CERCASEL.png" alt="Logo Cercasel" class="md:h-12 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/STABILIT.png" alt="Logo Stablit" class="md:h-12 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/PROLAMSA.png" alt="Logo Prolamsa" class="md:h-12 justify-self-center" />
-      <img src="src/Logos/Logos colaboradores/infra.png" alt="Logo Infra" class="md:h-12 justify-self-center" />
-    </div>
-  </footer>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
@@ -185,6 +253,71 @@
       );
     });
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sliderImg = document.getElementById('slider-img');
+      const sliderSubtitle = document.getElementById('slider-subtitle');
+      const sliderDescription = document.getElementById('slider-description');
+      const sliderMaterials = document.getElementById('slider-materials');
+
+      const slides = [
+        {
+          img: 'src/ImagenesStock/ABATIBLE.png',
+          subtitle: 'Unidad Deportiva Venustiano Carranza',
+          description: 'En Acemich, <span class="font-bold">somos parte de los proyectos que transforman espacios, brindando soluciones de alta calidad.</span> En 2016 colaboramos con IBIDEM Construcciones en la instalación de un sistema de cercado para la Unidad Deportiva Venustiano Carranza, garantizando seguridad y resistencia a largo plazo.',
+          materials: ['Cercasel', 'Accesorios de instalación Cercasel', 'Portones abatibles Cercasel', 'Portones plegadizos Cercasel']
+        },
+        {
+          img: 'src/ImagenesStock/albapesa.png',
+          subtitle: 'ESTADIO DE FUTBOL CU',
+          description: 'En Acemich, <span class="font-bold">nos enorgullece ser parte de proyectos emblemáticos que impulsan el desarrollo y la infraestructura.</span> En 2008, colaboramos con la Universidad Michoacana de San Nicolás de Hidalgo en la construcción del Estadio de Fútbol CU, en Morelia, Michoacán, suministrando materiales de acero de la más alta calidad para una estructura resistente y funcional.',
+          materials: ['Panel aislado para techo', 'Pijas y accesorios de fijación', 'Moldura para panel']
+        },
+        {
+          img: 'src/ImagenesStock/Polipasticos.png',
+          subtitle: 'VW ACUEDUCTO',
+          description: 'En Acemich, somos parte de proyectos que requieren calidad, resistencia y precisión en cada material. En 2008, colaboramos con Grupo FAME en la construcción de VW Acueducto, en Morelia, Michoacán, proporcionando soluciones en acero para una estructura segura y funcional.',
+          materials: ['Lámina RN 100', 'Lámina translúcida Poliacryl','Molduras y remates','Pijas y accesorios de fijación','Polín Montén']
+        }
+      ];
+
+      let currentSlide = 0;
+      const slideChangeDistance = 1100; // Cada 1200px de scroll cambiamos de slide (puedes ajustar esto)
+
+      const updateSlide = (newIndex) => {
+        if (newIndex < 0 || newIndex >= slides.length) return;
+
+        const slide = slides[newIndex];
+        sliderImg.style.opacity = 0;
+
+        setTimeout(() => {
+          sliderImg.src = slide.img;
+          sliderSubtitle.textContent = slide.subtitle;
+          sliderDescription.innerHTML = slide.description;
+          sliderMaterials.innerHTML = `
+          <ul class="list-inside list-disc space-y-2">
+            ${slide.materials.map(material => `<li class="text-sm">${material}</li>`).join('')}
+          </ul>
+        `;
+
+          sliderImg.style.opacity = 1;
+        }, 300);
+      };
+
+      window.addEventListener('scroll', () => {
+        const newSlideIndex = Math.floor(window.scrollY / slideChangeDistance);
+
+        if (newSlideIndex !== currentSlide && newSlideIndex < slides.length) {
+          currentSlide = newSlideIndex;
+          updateSlide(currentSlide);
+        }
+      });
+
+      updateSlide(0); // Inicializa primer slide
+    });
+  </script>
+
+
 </body>
 
 </html>
