@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="../src/output.css" rel="stylesheet" />
+  <link href="../src/styles.css" rel="stylesheet" />
+  <title>Acemich - Multypanel_SuperwallFrigo</title>
+  <link rel="icon" href="../src/Logos/logoacemichn.svg" />
+</head>
+
+<body class="text-white bg-[#CDCDCD] flex flex-col min-h-screen">
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 bg-black/30 backdrop-blur-sm shadow-lg">
+    <div class="container mx-auto px-4 flex justify-between items-center h-20">
+      <!-- Logo -->
+      <img src="../src/Logos/logoacemich.svg" alt="Logo Acemich" class="h-72" />
+      <!-- Menú Desktop -->
+      <nav class="hidden lg:flex items-center space-x-6 text-lg text-gray-200">
+        <a href="/index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+        <a href="/multypanel-inicio.html"
+          class="hover:text-white text-white transition-all duration-200 underline">Multypanel</a>
+        <a href="/laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+        <a href="/rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+        <a href="/accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+        <a href="/estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+        <a href="/proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+      </nav>
+      <div class="hidden lg:flex items-center space-x-1 ml-4">
+        <a href="https://www.facebook.com/AcemichMx/" class="opacity-75 hover:opacity-100 transition-opacity -mr-[1px]"
+          target="_blank">
+          <img src="../src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-5" />
+        </a>
+        <a href="https://www.instagram.com/acemichmx/" class="opacity-75 hover:opacity-100 transition-opacity"
+          target="_blank">
+          <img src="../src/Logos/ig.svg" alt="Instagram" class="w-9" />
+        </a>
+        <a href="https://w.app/luuwob" class="opacity-75 hover:opacity-100 transition-opacity" target="_blank">
+          <img src="../src/Logos/whatsapp.svg" alt="WhatsApp" class="w-5" />
+        </a>
+      </div>
+      <!-- Botón Menú Mobile -->
+      <button id="menu-toggle" class="lg:hidden p-2 hover:opacity-75">
+        <img src="../src/Logos/menu.svg" alt="Menú móvil" class="w-7" />
+      </button>
+    </div>
+    <!-- Menú Mobile -->
+    <div id="mobile-menu" class="lg:hidden absolute top-full w-full bg-black/90 backdrop-blur-md hidden shadow-xl">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-col items-center space-y-4 text-gray-300">
+          <a href="/index.html" class="hover:text-white transition-all duration-200">Inicio</a>
+          <a href="/multypanel-inicio.html"
+            class="hover:text-white text-white transition-all duration-200 underline">Multypanel</a>
+          <a href="/Laminas-inicio.html" class="hover:text-white transition-all duration-200">Láminas</a>
+          <a href="/rejacero-inicio.html" class="hover:text-white transition-all duration-200">Rejacero</a>
+          <a href="/accesorios-inicio.html" class="hover:text-white transition-all duration-200">Accesorios</a>
+          <a href="/estructurales-inicio.html" class="hover:text-white transition-all duration-200">Estructurales</a>
+          <a href="/proyectos-inicio.html" class="hover:text-white transition-all duration-200">Proyectos</a>
+          <div class="flex space-x-2 mt-4">
+            <a href="https://www.facebook.com/AcemichMx/" class="hover:opacity-75">
+              <img src="../src/Logos/facebook-social-logo.svg" alt="Facebook" class="w-8" />
+            </a>
+            <a href="https://www.instagram.com/acemichmx/" class="hover:opacity-75">
+              <img src="../src/Logos/ig.svg" alt="Instagram" class="w-13 -mt-2" />
+            </a>
+            <a href="https://w.app/luuwob" class="hover:opacity-75">
+              <img src="../src/Logos/whatsapp.svg" alt="WhatsApp" class="w-8" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="flex-grow">
+    <!-- Sección del inicio -->
+    <div class="h-screen relative overflow-hidden">
+      <div class="relative z-[1] h-screen flex items-center">
+        <img class="absolute top-0 left-0 w-full h-full object-cover transform scale-110 md:scale-100 origin-center"
+          src="../src/ImagenesStock/panelsuperwallfrigo.png" />
+        <div class="container px-12 relative z-20 text-white lg:w-1/2 font-light lg:text-lg lg:py-0 pt-16 text-sm">
+          <p class="mb-3 text-sm">Página principal / <span class="font-bold">Multypanel</span></p>
+          <h1 class="text-3xl md:text-5xl font-extrabold mb-5">Superwall Frigo</h1>
+          <p class="mb-5">
+            Panel aislado metálico para muros, tipo sándwich, constituido por dos caras en lámina de acero
+            galvanizada prepintada. Cuenta con un núcleo de aislante de poliuretano expandido de alta
+            densidad el cual genera un óptimo aislamiento térmico y acústico. La fijación del Superwall es
+            oculta mediante traslape longitudinal machihembrado, lo cual genera un gran hermetismo y un
+            sellado ideal.
+          </p>
+          <p class="mb-5">
+            Su uso es ideal para muros, plafones y divisiones internas en naves industriales, casetas, cámaras
+            de refrigeración, congelación y conservación, empaques, rastros, granjas, viveros, entre otros.
+          </p>
+          <p>Brinda grandes beneficios al ser un elemento sistema ligero integrado (11 Kg/m2 aprox), presentar
+            un alto valor estético, tener una versatilidad de aplicaciones, brindar importantes ahorros de
+            energía, requerir un mantenimiento mínimo además de su elevada resistencia mecánica, lo cual lo
+            vuelve un producto apto para ser usado como elementoautoportante.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Principal -->
+    <section class="text-black md:px-16 px-4 py-16 flex flex-col z-[2]">
+      <div class="container mx-auto items-start mb-5">
+        <h2 class="lg:text-5xl text-4xl font-bold text-black">
+          Especificaciones
+        </h2>
+      </div>
+      <div class="flex lg:flex-row flex-col text-lg lg:gap-8">
+        <div class="lg:w-1/2 flex flex-col text-lg">
+
+          <h3 class="font-extrabold">Espesor:</h3>
+          <p class="mb-5">1.5”, 2”, 2.5”, 3”, 4”, 5” y 6”.
+          </p>
+
+          <h3 class="font-extrabold">Calibres:</h3>
+          <p class="mb-5">26/26.</p>
+
+          <h3 class="font-extrabold">Acabados:</h3>
+          <p class="mb-5">Liso y embozado.
+          </p>
+
+          <h3 class="font-extrabold">Tipo de pintura:</h3>
+          <p class="mb-5">Poliéster estándar.
+          </p>
+
+          <h3 class="font-extrabold">Ancho Efectivo:</h3>
+          <p class="mb-5">1.00 m</p>
+
+          <h3 class="font-extrabold">Medida STD:
+          </h3>
+          <p class="lg:mb-0 mb-5">De 1.80 m hasta 15.00 m (largo std. 12.00 m).</p>
+
+
+        </div>
+        <div class="lg:w-1/2">
+
+          <h3 class="font-extrabold">Colores Disponibles:</h3>
+          <p class="mb-5">Blanco y arena (para más opciones consulte con nuestros asesores)</p>
+
+          <h3 class="font-extrabold">Aislamiento:</h3>
+          <p class="mb-5">Poliuretano rígido, bajo pedido puede suministrarse con
+            espuma clase 1 y aprobación FM (Factory mutal).</p>
+
+          <h3 class="font-extrabold">Nombres similares:</h3>
+          <p class="lg:mb-5 mb-0">Superwall, Refripanel, Multymuro, Galvatherm, Isoparete,
+            Multypanel muro, Supermuro.</p>
+
+        </div>
+      </div>
+      <p class="text-sm text-[#DD7F3E] mb-12">*Las especificaciones, medidas y colores pueden variar deacuerdo a la
+        marca, para más
+        información técnica consulta a uno
+        de nuestros asesores</p>
+      <h2 class="lg:text-5xl text-4xl font-extrabold text-black mb-11">
+        Plano Técnico
+      </h2>
+      <img src="../src/PlanosTecnicos/SUPERWALL FRIGO.jpg.png" alt="Perfil" class="w-1/2 h-auto">
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <!-- Footer modificado -->
+  <footer class="bg-black mt-auto py-4 relative overflow-hidden">
+    <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center h-auto lg:h-24">
+      <img src="../src/Logos/newlogoacemich.svg" alt="Logo Acemich"
+        class="h-72 w-auto object-contain hidden lg:block" />
+      <div class="flex flex-col lg:items-end items-center text-white text-sm">
+        <p>Teléfono</p>
+        <p class="text-[#B64F0C]">(443) 316 9650</p>
+        <p>Correo</p>
+        <p class="text-[#B64F0C]">ventas2@acemich.com.mx</p>
+        <p>Síguenos en nuestras redes</p>
+        <p class="text-[#B64F0C]">@acemichmx</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Script para el menú móvil
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      document.addEventListener("click", () =>
+        mobileMenu.classList.add("hidden")
+      );
+    });
+  </script>
+</body>
+
+</html>
